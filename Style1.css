@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario1 {
+    width: 300px;
+    background: #1e2329;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.formulario1 h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.controls {
+    width: 100%;
+    background: #2c3139;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #3e4552;
+    font-size: 14px;
+    color: #8d939d;
+}
+
+.formulario1 p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #8d939d;
+}
+
+.formulario1 a {
+    color: #8d939d;
+    text-decoration: none;
+}
+
+.formulario1 a:hover {
+    text-decoration: underline;
+}
+
+.formulario1 .botons {
+    width: 100%;
+    background: #0062cc;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.formulario1 .botons:hover {
+    background: #0056b3;
+}
+
+
+.terminos-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.terminos-check input[type="checkbox"] {
+    margin-right: 8px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Control de Asistencia</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <div class="attendance-container">
+        <h2>Control de Asistencia</h2>
+        <form action="/submit-attendance" method="POST">
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="date">Fecha</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="input-group">
+                <label for="shift">Turno</label>
+                <select id="shift" name="shift" required>
+                    <option value="mañana">Mañana</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noche">Noche</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <button type="submit">Registrar Asistencia</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
